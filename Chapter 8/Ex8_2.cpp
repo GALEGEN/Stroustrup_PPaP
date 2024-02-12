@@ -6,6 +6,7 @@
 void print(const std::string& rs, const std::vector<int>& rv)
 // prints a vector of ints to cout
 {
+    std::cout << rs;
     for (size_t i = 0; i < rv.size(); i++)
     {
         std::cout << rv[i];
